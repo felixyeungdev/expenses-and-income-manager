@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Expenses and Income Manager</title>
+        <link rel="stylesheet" href="styles.css" />
+
+        <script defer src="showdown.min.js"></script>
+
+        <script defer src="APIKEY.js"></script>
+        <script defer src="https://apis.google.com/js/api.js"></script>
+        <script defer src="api.js"></script>
+        <script defer src="app.js"></script>
+        <script defer src="manager.js"></script>
+    </head>
+    <body>
+        <div id="profile" class="signedOut">
+            <div class="name"></div>
+            <img src="" alt="" class="image" />
+            <div class="buttons">
+                <button id="signInBtn">Sign in with Google</button>
+                <button id="signOutBtn">Sign out</button>
+            </div>
+        </div>
+        <header class="total"></header>
+        <main class="entries"></main>
+    </body>
+</html>
